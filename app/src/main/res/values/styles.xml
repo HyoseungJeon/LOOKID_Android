@@ -1,0 +1,80 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Lookid" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="colorPrimary">@color/LOOKID_foreground</item>
+        <item name="colorAccent">@color/LOOKID_foreground</item>
+        <item name="android:editTextColor">@drawable/edittext_textcolor</item>
+    </style>
+
+    <style name="Lookid.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="Lookid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/LOOKID_foreground</item>
+        <item name="android:textColorSecondaryInverse">@color/LOOKID_second_ground</item>
+        <item name="android:textColorPrimary">@color/LOOKID_second_ground</item>
+        <item name="android:textColorPrimaryInverse">@color/LOOKID_second_ground</item>
+        <item name="android:textColor">@color/LOOKID_second_ground</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_width</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_width</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_height</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_height</item>
+    </style>
+
+    <style name="DialogStyle_child" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/LOOKID_foreground</item>
+        <item name="android:textColorSecondaryInverse">@color/LOOKID_second_ground</item>
+        <item name="android:textColorPrimary">@color/LOOKID_second_ground</item>
+        <item name="android:textColorPrimaryInverse">@color/LOOKID_second_ground</item>
+        <item name="android:textColor">@color/LOOKID_second_ground</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_width_child</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_width_child</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_height</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_height</item>
+    </style>
+
+    <style name="DialogStyle_Refund" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item name="colorAccent">@color/LOOKID_foreground</item>
+        <item name="android:textColorSecondaryInverse">@color/LOOKID_second_ground</item>
+        <item name="android:textColorPrimary">@color/LOOKID_second_ground</item>
+        <item name="android:textColorPrimaryInverse">@color/LOOKID_second_ground</item>
+        <item name="android:textColor">@color/LOOKID_second_ground</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="windowFixedWidthMajor">@dimen/dialog_width</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_width</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_height</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_height</item>
+    </style>
+
+    <style name="TabsStyle" parent="android:Widget.TabWidget">
+        <item name="android:background">@color/LOOKID_foreground</item>
+    </style>
+    
+    <style name="SplashStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@drawable/splash</item>
+    </style>
+
+    <style name="InfoEditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:background">@drawable/view_round_gray2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:textColor = "@android:color/black" android:drawable="@drawable/view_round_fore"/>
+    <item android:state_enabled="false" android:textColor = "@color/LOOKID_second_ground_blur" android:drawable="@drawable/view_round_fore_blur"/>
+</selector>

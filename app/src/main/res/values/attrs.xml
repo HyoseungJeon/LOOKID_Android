@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="stateEditText">
+        <attr name="min_ems" format="reference|integer"/>
+        <attr name="max_ems" format="reference|integer"/>
+    </declare-styleable>
+</resources>

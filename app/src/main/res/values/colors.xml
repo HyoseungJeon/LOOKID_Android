@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#222b3c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="legacy_primary">#e91e63</color>
+    <color name="legacy_primary_dark">#ffffff</color>
+    <color name="LOOKID_foreground">#ffdb70</color>
+    <color name="LOOKID_foreground_blur">#59ffdb70</color>
+    <color name="LOOKID_second_ground">#222b3c</color>
+    <color name="LOOKID_second_ground_blur">#59222b3c</color>
+    <color name="white_blur">#adffffff</color>
+    <color name="LOOKID_foreground2">#ffdb70</color>
+    <color name="LOOKID_foreground3">#3cb371</color>
+    <color name="navigationBarColor">#ffffff</color>
+    <color name="line_gray">#f3f3f3</color>
+    <color name="LOOKID_gray">#e7e7e7</color>
+    <color name="primary_text_material_dark">#000000</color>
+    <color name="primary_dark_material_light">#ffffff</color>
+</resources>
